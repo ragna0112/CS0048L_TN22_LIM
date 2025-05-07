@@ -14,6 +14,7 @@ def fah_to_cel(fahrenheit):
 
 def main():
     while True:
+        menu()
         choice = input("Enter your choice from (1-3): ")
 
         if choice == '1':
